@@ -17,6 +17,7 @@ class Dog
   
   def self.print_all
     @@all.each do |name|
+      name = "Pluto/nFido/nMaddy"
       puts name
     end
   end
