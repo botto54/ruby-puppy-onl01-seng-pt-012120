@@ -1,6 +1,7 @@
 # Add your code here
 class Dog
   @@all = []
+  attr_accessor :name
   
   def initialize(puppy)
     @name = name
@@ -26,8 +27,4 @@ class Dog
     
   end
   
-  def name
-    @name
-  end
-
 end
